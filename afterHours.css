@@ -1,0 +1,372 @@
+.html{
+  scroll-behavior: smooth;
+}
+.header{
+  overflow: hidden;
+
+  padding: 50px 15%;
+}
+
+.header-right{
+  float:right;
+}
+html, body {
+margin:0;
+padding:0;
+height:100%; 
+background-color: #cab600;
+} 
+
+.header a{
+  color:white;
+  text-align:center;
+  padding: 20px;
+  font-size:16px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+a:hover {
+  color:rgb(255, 102, 42);
+}
+
+.header a.active {
+  color:rgb(255, 102, 42);
+}
+
+
+
+
+
+.section{
+position:absolute;
+width:100%;
+height:100%;
+background:lightblue;
+
+}
+
+.text{
+width:50%;
+text-align:right;
+color: #ffffff;
+font-size:20px;
+padding-top:10%;
+padding-bottom:auto;
+padding-right:15%;
+font-size:20px;
+font-family: 'Courier New', monospace;
+font-weight: bold;
+}
+.text h1{
+  margin:5px;
+}
+.text p{
+  padding-top:50px;
+}
+.mainImage h1.arrow{
+  text-align:center;
+  color: #ffffff;
+  font-size:20px;
+  padding-bottom:10px;
+  }
+
+.image{
+  padding-top:45px;
+  padding-left:7%;
+}
+.image img{
+  width:100%;
+}
+
+
+.row{
+  display:flex;
+
+}
+
+.guide{
+  padding-left:10%;
+  width:50%;
+  color: #ffffff;
+  font-size:12px;
+  font-family: 'Courier New', monospace;
+}
+
+.arrow{
+  margin-top: 0;
+  width:50%;
+  font-size:30px;
+  text-align:right;
+  padding-right:15%;
+  padding-bottom:35px;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+}
+
+.resize{
+  width:80%;
+  
+}
+
+
+.outer1{
+  text-align:right;
+  padding:10px;
+  width:50%;
+  
+}
+.outer2{
+  text-align:left;
+  padding:10px;
+  width:50%;
+  
+}
+
+
+
+.bodSection{
+  padding: 100px 15%;
+}
+
+
+.obj{
+background-color: rgb(34, 33, 70);
+padding-bottom:50px;
+}
+
+.projs{
+padding:30px;
+}
+.card{
+box-shadow: 5px 5px 10px 0px  rgba(32, 32, 36, 0.8);
+border-radius: 10px;
+width: 70%;
+border: 5px solid #08012a;
+padding: 50px;
+margin-bottom: 30px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.card:hover{
+background-color: rgb(206, 199, 250);
+}
+.card h4{
+color:black;
+font-size:20px;
+text-align: left;
+font-family: 'Courier New', monospace;
+}
+.card p{
+color:black;
+font-size:15px;
+text-align: left;
+font-family: 'Courier New', monospace;
+}
+/* Add some padding inside the card container */
+.container {
+padding: 2px 16px;
+}
+
+.title-text{
+padding-top: 15px;
+color:white;
+font-size:25px;
+text-align: center;
+font-family: 'Courier New', monospace;
+font-weight: bold;
+}
+.textBox p{
+text-align:center;
+display: block;
+margin-left:auto;
+margin-right:auto;
+
+}
+.textBox{
+  margin-left:15px;
+  text-align: center;
+
+}
+
+.center {
+  text-align: center;
+
+}
+
+
+.obj p{
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+  font-size:15px;
+  color:rgb(145, 145, 145);
+}
+#poster-wrap{
+  padding-top:20px;
+  
+}
+#bold{
+  color:white;
+  font-size:15px;
+}
+#white{
+  color:white;
+}
+.stickerImg img{
+  width:50%;
+}
+
+.PSC{ 
+  margin-left:auto;
+margin-right:auto;
+  background-color:rgb(115, 141, 54);
+}
+
+.main-nav {
+  width:100vh;    
+  height:80px;
+  position:fixed;
+  background:black;
+  -webkit-transform-origin: left top;
+  -webkit-transform:rotate(-90deg) translateX(-100%);
+
+}
+/*
+
+*/
+
+#navv{
+  float:right;
+}
+.main-nav a{    
+ 
+  margin-right:40px;
+  float:right;
+  height:100%;
+  line-height:45px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size:25px;
+  text-decoration: none;
+  color:rgb(145, 145, 145);
+}
+
+.PSC p{
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+}
+
+.white{
+  color:white;
+}
+#psc-logo{
+  text-align:right;
+  height:50%;
+}
+#psc-text{
+  text-align:left;
+  padding-right:5%;
+  padding-left:5%;
+  padding-bottom:5%;
+}
+.w{
+  color:white;
+}
+.CUCAI{
+  background-color:rgb(31, 77, 138);
+  padding-bottom:50px;
+}
+.left{
+  width:50%;
+  padding:10px;
+}
+.right{
+  width:50%;
+  padding:10px;
+}
+
+.CUCAI p{
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+}
+.cucai-txt{
+  padding:10px;
+}
+.cucai-textBox{
+  padding-right:60px;
+  padding-top:40px;
+}
+.CUCAI p.ann{
+  font-size:10px;
+  margin:0;
+  color:white;
+}
+.better-together{
+  background-color:#141414;
+  padding-bottom:30px;
+}
+#ppl-wrap{
+  float:center;
+  padding-bottom:30px;
+  padding-inline: 10%;
+}
+
+.img-card img{
+
+  width: 100%;
+}
+
+.img-card{
+  position:relative;
+}
+#leftest{
+
+width:35%;
+height:auto;
+
+}
+
+.better-together p{
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+  text-align:center;
+}
+
+
+#mid{
+  width:100%;
+height:a
+}
+.better-together img.trans{
+  width:20%;
+}
+.trans{
+position:relative;
+}
+
+.cop{
+  width:50%;
+}
+#first{
+  float:right;
+}
+.Granny{
+  background-color:#00b0b6;
+  padding-bottom:50px;
+}
+
+.Granny p.bod{
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+  text-align:center;
+}
+#gran{
+  padding-inline:150px;
+}
+
+.grannycard{
+  width: 33%;
+  text-align: center;
+}
