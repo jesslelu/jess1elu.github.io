@@ -86,21 +86,21 @@ a:hover {
     padding: 100px 15%;
   }
 .introTxt h3{
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   font-size:35px;
   text-align: center;
   font-family: 'Courier New', monospace;
   font-weight: bold;
-  margin:0px;
+  margin:8px;
 }
 
 .introTxt{
   margin:0px;
-  padding: 50px 15%;
+  padding: 20px 15%;
 }
 
 .introTxt p{
-  color:rgb(0, 0, 0);
+  color:rgb(158, 226, 223);
   font-size:20px;
   text-align: center;
   font-family: 'Andale Mono', monospace;
@@ -109,11 +109,11 @@ a:hover {
 
 
 .projDis{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 126, 94);
 }
 
 .projs{
-  padding:30px;
+  padding:20px;
 }
 
 
@@ -150,7 +150,7 @@ a:hover {
   grid-template-columns: auto auto;
   grid-gap: 0px;
   grid-row-gap:10px;
-  background-color:rgb(0, 18, 37);
+  background-color:rgb(0, 24, 20);
   padding-inline: 10%;
   
 
@@ -189,7 +189,10 @@ a:hover {
   font-weight: bold;
 
 }
+.row{
+  display:flex;
 
+}
 .pp{
   color:white;
   padding-left:100px;
@@ -242,17 +245,35 @@ margin-inline: 0px;
 }
 
 .contact{
-  height:400px;
+  height:auto;
 }
 
-.grid{
-  display: grid;
-  padding:30px;
-  align-content: center;
-  grid-template-columns: auto auto;
-  grid-gap: 0px;
-  grid-row-gap:10px;
-}
+
 .catpic img{
-  width:400px;
+  width:340px;
+  height:auto;
+}
+
+.contact{
+  background-color: rgb(216, 194, 0);
+}
+.leftest img{
+  width:330px;
+}
+.left{
+  padding:40px;
+}
+.left p{
+
+
+  font-family: 'Andale Mono', monospace;
+}
+.left h3{
+
+  font-size:30px;
+  font-family: 'Andale Mono', monospace;
+}
+.catpic{
+
+  background-color: #001535;
 }
