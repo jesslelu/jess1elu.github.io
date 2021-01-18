@@ -379,3 +379,179 @@ position:relative;
   color:#16007a;
   transition: 0.6s;
 }
+
+
+.grid-container {
+
+  display: grid;
+  padding:30px;
+  align-content: center;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  grid-row-gap:10px;
+  
+  padding-inline: 10%;
+  
+
+}
+
+.grid-container > div {
+  
+  position:relative;
+  text-align: left;
+  margin-bottom:50px;
+  font-size: 30px;
+
+  overflow: hidden;
+}
+
+.left-side{
+  border-top-left-radius: 7%;
+  border-bottom-left-radius: 7%;
+  padding-top:35px;
+  padding-left:50px;
+}
+.proj-txt{
+  padding-left:100px;
+  color:rgb(77, 255, 216);
+  font-size:25px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+
+}
+.proj-ttl{
+  color:white;
+  padding-top:10px;
+  padding-bottom:20px;
+  padding-left:100px;
+  font-size:30px;
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+
+}
+.row{
+  display:flex;
+
+}
+.pp{
+  color:white;
+  padding-left:100px;
+  font-size:15px;
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+}
+.fi{
+  height:100%;
+  width:100%;
+}
+
+.pic img{
+  background-size: cover;
+
+}
+.pic{
+  border-top-right-radius: 7%;
+  border-bottom-right-radius: 7%;
+margin-inline: 0px;
+}
+.innerpic{
+  border-radius: 10%;
+  box-shadow: 10px 10px 10px #181818;
+  overflow: hidden;
+  display: flex;
+  width:80%;
+  height:auto;
+
+  margin:30px;
+}
+#up:hover {
+  transform: translate(0, -13px);
+  box-shadow: 10px 10px 10px #000000;
+}
+
+#up{
+  transition: 0.3s;
+  
+}
+
+.gitlink{
+  padding-left:100px;
+  font-size:19px;
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+  text-decoration: none;
+  color:#31e05a;
+  
+}
+
+
+
+.contact{
+  background-color:rgb(40, 143, 190);
+}
+.leftest img{
+  width:360px;
+}
+.left{
+  width:60%;
+  padding:40px;
+  padding-left:20%;
+  height:200px;
+}
+.left p{
+  font-family: 'Andale Mono', monospace;
+  color:white;
+}
+.left h3{
+
+  color:rgb(255, 238, 0);
+  font-family: 'Andale Mono', monospace;
+}
+.catpic{
+  width:340px;
+  background-color: #000f25;
+}
+.catpic img{
+  padding:30px;
+  width:300px;
+}
+
+.lefts a{
+  font-family: 'Andale Mono', monospace;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+
+}
+
+.lefts h3{
+  padding-top:10px;
+  width:500px;
+  font-family: 'Andale Mono', monospace;
+  color:#050296;
+}
+
+#black{
+  background-color:rgb(201, 198, 13);
+  
+  padding:40px;
+}
+
+.left a{
+  padding-top:100px;
+  color:rgb(255, 235, 59);
+  font-family: 'Andale Mono', monospace;
+  text-decoration: none;
+}
+.navv{
+    text-align:right;
+    padding-right:50px;
+    padding-bottom:30px;
+  }
+  .designlink{
+    color:rgb(223, 255, 209);
+    width:100%;
+    font-size:30px;
+    text-align:right;
+    text-decoration: none;
+    font-family: 'Andale Mono', monospace;
+  }

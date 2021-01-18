@@ -11,7 +11,7 @@ html, body {
   margin:0;
   padding:0;
   height:100%; 
-  background-color: #d2e3f8;
+  background-color: #19a582;
 } 
 
 .header a{
@@ -92,6 +92,7 @@ a:hover {
   font-family: 'Courier New', monospace;
   font-weight: bold;
   margin:8px;
+
 }
 
 .introTxt{
@@ -109,21 +110,10 @@ a:hover {
 }
 
 
-.projDis{
-  background-color: rgb(0, 121, 165);
-}
-
 .projs{
   padding:20px;
 }
 
-
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
 .overlay {
   position: absolute;
@@ -171,6 +161,7 @@ a:hover {
   border-top-left-radius: 7%;
   border-bottom-left-radius: 7%;
   padding-top:35px;
+  padding-left:50px;
 }
 .proj-txt{
   padding-left:100px;
@@ -245,26 +236,7 @@ margin-inline: 0px;
   
 }
 
-.contact{
-  height:auto;
-}
-.navv{
-  text-align:right;
-  padding-right:50px;
-  padding-bottom:30px;
-}
-.designlink{
-  color:rgb(223, 255, 209);
-  width:100%;
-  font-size:30px;
-  text-align:right;
-  text-decoration: none;
-  font-family: 'Andale Mono', monospace;
-}
-.catpic img{
-  width:340px;
-  height:auto;
-}
+
 
 .contact{
   background-color:rgb(40, 143, 190);
@@ -275,27 +247,27 @@ margin-inline: 0px;
 .left{
   width:60%;
   padding:40px;
+  padding-left:20%;
+  height:200px;
 }
 .left p{
   font-family: 'Andale Mono', monospace;
-  color:black;
-}
-.titl{
   color:white;
 }
 .left h3{
 
-  color:white;
+  color:rgb(255, 238, 0);
   font-family: 'Andale Mono', monospace;
 }
-
+.catpic{
+  width:340px;
+  background-color: #000f25;
+}
 .catpic img{
   padding:30px;
   width:300px;
 }
-.w{
-  color:white;
-}
+
 .lefts a{
   font-family: 'Andale Mono', monospace;
   text-decoration: none;
@@ -304,7 +276,7 @@ margin-inline: 0px;
 }
 
 .lefts h3{
-  padding-top:30px;
+  padding-top:10px;
   width:500px;
   font-family: 'Andale Mono', monospace;
   color:#050296;
@@ -317,11 +289,21 @@ margin-inline: 0px;
 }
 
 .left a{
-  padding-top:200px;
-  color:white;
+  padding-top:100px;
+  color:rgb(255, 235, 59);
   font-family: 'Andale Mono', monospace;
   text-decoration: none;
 }
-.w{
-  color:white;
-}
+.navv{
+    text-align:right;
+    padding-right:50px;
+    padding-bottom:30px;
+  }
+  .designlink{
+    color:rgb(223, 255, 209);
+    width:100%;
+    font-size:30px;
+    text-align:right;
+    text-decoration: none;
+    font-family: 'Andale Mono', monospace;
+  }
