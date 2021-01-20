@@ -11,7 +11,7 @@ html, body {
   margin:0;
   padding:0;
   height:100%; 
-  background-color: #19a582;
+  background-color: #ffa8c2;
 } 
 
 .header a{
@@ -33,13 +33,16 @@ a:hover {
   }
 
 .mainImage img {
-  padding-top: 40px;
-  width: 100%;
 
+  width: auto;
+  background-position-y: -40;
+  max-width: 90%;
+  max-height: 30%;
+  display: block;
   }
 
 .mainImage{
-  padding-top: 12px;
+ 
 }
 
 .section{
@@ -64,14 +67,14 @@ a:hover {
 }
 .mainImage p{
   text-align:center;
-  color: #666599;
+  color: #201e8f;
   font-size:10px;
   padding-top: 10px;
 
 }
 .mainImage h1{
   text-align:center;
-  color: #aeadda;
+  color: #54537a;
   font-size:20px;
   padding-bottom:10px;
 }
@@ -94,7 +97,9 @@ a:hover {
   margin:8px;
 
 }
-
+.projDis{
+  background-color:#d6d6d6;
+}
 .introTxt{
   margin:0px;
   padding-top:30px;
@@ -102,7 +107,7 @@ a:hover {
 }
 
 .introTxt p{
-  color:white;
+  color:black;
   font-size:20px;
   text-align: center;
   font-family: 'Andale Mono', monospace;
@@ -165,14 +170,14 @@ a:hover {
 }
 .proj-txt{
   padding-left:100px;
-  color:rgb(77, 255, 216);
+  color:rgb(55, 63, 165);
   font-size:25px;
   font-family: 'Courier New', monospace;
   font-weight: bold;
 
 }
 .proj-ttl{
-  color:white;
+  color:black;
   padding-top:10px;
   padding-bottom:20px;
   padding-left:100px;
@@ -186,7 +191,7 @@ a:hover {
 
 }
 .pp{
-  color:white;
+  color:black;
   padding-left:100px;
   font-size:15px;
   font-family: 'Andale Mono', monospace;
@@ -208,7 +213,7 @@ margin-inline: 0px;
 }
 .innerpic{
   border-radius: 10%;
-  box-shadow: 10px 10px 10px #181818;
+  box-shadow: 10px 10px 10px #707070;
   overflow: hidden;
   display: flex;
   width:80%;
@@ -218,7 +223,7 @@ margin-inline: 0px;
 }
 #up:hover {
   transform: translate(0, -13px);
-  box-shadow: 10px 10px 10px #000000;
+  box-shadow: 10px 10px 10px #4e4e4e;
 }
 
 #up{
@@ -239,7 +244,7 @@ margin-inline: 0px;
 
 
 .contact{
-  background-color:rgb(40, 143, 190);
+  background-color:rgb(113, 158, 179);
 }
 .leftest img{
   width:360px;
@@ -306,4 +311,12 @@ margin-inline: 0px;
     text-align:right;
     text-decoration: none;
     font-family: 'Andale Mono', monospace;
+  }
+
+  .emailLink{
+    font-size:30px;
+  }
+
+  .resumeLink{
+    font-size:30px;
   }

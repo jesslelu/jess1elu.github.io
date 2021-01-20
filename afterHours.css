@@ -555,3 +555,10 @@ margin-inline: 0px;
     text-decoration: none;
     font-family: 'Andale Mono', monospace;
   }
+  .emailLink{
+    font-size:30px;
+  }
+
+  .resumeLink{
+    font-size:30px;
+  }
